@@ -16,7 +16,7 @@ class Generator:
             os.makedirs('apriltags/protos')
         if not os.path.exists('apriltags/images'):
             os.makedirs('apriltags/images')
-            
+
         with open('apriltags/protos/' + str(tag_name) + '.proto', 'w') as f:
             protos_text = self.proto_template.replace('AprilTag0', str(tag_name))
             protos_text = protos_text.replace('apriltag0', str(tag_name))

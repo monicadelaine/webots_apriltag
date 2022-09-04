@@ -22,6 +22,11 @@ and run
 ```
 python3 generate.py
 ```
+# White padding compensation
+count pixels from apriltag_imgs, and multiply tag size with border:outside_border ratio while detecting it in webots.
+OR
+check on https://www.ssontech.com/docs/SynthEyesUM_files/Choosing_an_AprilTag.html
+e.g. for tag36h11, multiply tag size by (8/10).
 
 # Add models:
 apriltags folder can be added in current project directory or webots directory
