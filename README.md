@@ -40,4 +40,4 @@ If webots is installed through snap or ros, find it using
 sudo find / -name webots
 ```
 
-For different webots version probably changing #VRML_OBJ R2022a utf8 (first line) in AprilTag0.proto should do it
+For different webots version probably changing #VRML_OBJ R2022b utf8 (first line) in AprilTag0.proto should do it
