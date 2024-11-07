@@ -30,7 +30,7 @@ def main():
     # Texture size must be power of two
     # With the default tag image size (10pix), tags will not be clearly rendered due to rescaling and interpolation
     tag_size = 2048
-    nr_of_tags = 20
+    nr_of_tags = 40
     tags_directory = 'apriltag-imgs/tag36h11'
     tag_family = 'tag36_11_'
     webots_tag_size = 0.16
